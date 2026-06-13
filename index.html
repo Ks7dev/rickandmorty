@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>info rickandmorthy</title>
 </head>
 
@@ -13,20 +15,26 @@
         <h2>Consulta personagem</h2>
     </header>
     <main>
-        <input type="number" name="procurar_id" id="procura_id" placeholder="Digite o ID do personagem">
-        <div id="container-esquerdo">
-            <img src="" alt="" id="img_person">
-            <p id="id_person">id</p>
-        </div>
-        <div id="container-direito">
-            <p id="person-name">name</p>
-            <p id="person-especie">especie/type</p>
-            <p id="person-location">location</p>
-        </div>
-        <div id="container-butao">
-            <button id="butao-anteiror">Anterior</button>
-            <button id="butao-proximo">Proximo</button>
-        </div>
+       
+            <input type="number" name="procurar_id" id="procura_id" placeholder="Digite o ID do personagem">
+            <div class="container-main">
+                <div class="container-esquerdo">
+                    <img src="" alt="" id="img-person">
+                    <button>Alterar</button>
+                    <p id="id_person">ID</p>
+                </div>
+                <div class="container-direito">
+                    <p id="person-name">NAME</p>
+                    <p id="person-especie">ESPECIE/TYPE</p>
+                    <p id="person-location">LOCATION</p>
+                    <p id="person-gener">GENERO</p>
+                </div>
+            </div>
+            <div class="container-butao">
+                <button id="butao-anteiror">Anterior</button>
+                <button id="butao-proximo">Proximo</button>
+            </div>
+     
     </main>
     <footer>Desenvolvido pro Kauan Sousa</footer>
     </div>
