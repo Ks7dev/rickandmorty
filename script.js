@@ -3,29 +3,48 @@ let id = 1
 const urlBase = `https://rickandmortyapi.com/api/character/`
 const urlname = `?name=`
 
-let procuraPerson = document.getElementById("procura_id")
+const procuraPerson = document.getElementById("procura_id")
 
- /*object.img*/ = document.getElementById("img-person")
- /*object.name*/ = document.getElementById("person-name")
- /*object.especie*/ = document.getElementById("person-especie")
- /*object.location*/ = document.getElementById("person-location")
- /*object.gener*/ = document.getElementById("person-gener")
- /*object.type*/ = document.getElementById("person-type")
+ const imgPerson = document.querySelector("img-person")
+ const namePerson = document.querySelector("person-name")
+ const especiePerson = document.querySelector("person-especie")
+ const locationPerson = document.querySelector("person-location")
+ const generPerson = document.querySelector("person-gener")
+ const personType = document.querySelector("person-type")
 
-    document.addEventListener("butao-anterior").${id}++
-    document.addEventListener("butao-proximo").${id} -1
+   
+ async function () {
 
- event.key
-if (isNaN(procuraPerson)){
-    async function consultanome(procuraPerson){
-        fetch = `${urlBase}${urlname}${procuraPerson}`}
-        Response.json => {const infoObjetct}
-        console.log(infoObjetct)
+ }
+
+
+
+ async function rickapi(person) {
+    if (isNaN(person))
+    fetch ${urlBase}${urlname}${id}
+    response.json
+    
+    }else{
+     fetch ${urlBase}${id}
+     await = await response.json
     }
+
+
+
+
+
+
+ async function filmeapi(person) {
+    if (isNaN(person)){
+     fetch ${urlBase}${urlname}${procuraPerson}
+
+    }else{
+    fetch ${urlBase}${id}
+    await = await
+
     }
-} else{
-    async function consulta-id(procuraPerson){
-        fetch = `${urlBase}${procuraPerson}`
-        await id = info = JSON
-    }
+
+
+    const url = `${urlBase}${id}`
+    const data = await (await fetch(url)).json
 }
